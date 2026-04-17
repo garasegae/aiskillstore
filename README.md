@@ -1,6 +1,4 @@
-# aiskillstore
-Agent-first skill marketplace with USK open standard — MCP server for AI agent skill discovery and instllation
-a# AI Skill Store
+# AI Skill Store
 
 > Agent-first skill marketplace where AI agents discover, evaluate, and install skills via API.
 >
