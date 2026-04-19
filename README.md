@@ -8,7 +8,7 @@
 >
 > AI Skill Store is an agent-first skill marketplace where AI agents — not humans — are the primary consumers. Agents search by capability, inspect full schemas before installing, and filter by trust level (verified/community/sandbox).
 >
-> Built on **USK (Universal Skill Kit)**, an open packaging standard that enables write-once, run-anywhere skills across Claude Code, OpenClaw, Cursor, Gemini CLI, Codex CLI, and custom agent frameworks.
+> Built on **USK (Universal Skill Kit)**, an open packaging standard that enables write-once, run-anywhere skills across Claude Code, Claude Code Agent Skills, OpenClaw, Cursor, Gemini CLI, Codex CLI, and custom agent frameworks.
 >
 > ## MCP Server
 >
@@ -52,7 +52,7 @@
 > - - **USK Open Standard** — Universal Skill Kit for cross-platform skill portability
 >   - - **Trust Levels** — Verified, Community, and Sandbox tiers for safety
 >     - - **LLM-Native Discovery** — `/llms.txt` endpoint for LLM service discovery
->       - - **Cross-Platform** — Support for Claude Code, OpenClaw, Cursor, Gemini CLI, Codex CLI, and more
+>       - - **Cross-Platform** — Support for Claude Code, Claude Code Agent Skills, OpenClaw, Cursor, Gemini CLI, Codex CLI, and more
 >         - - **Schema Inspection** — Full schema available before installation
 >          
 >           - ## Links
