@@ -1,0 +1,50 @@
+# Secrets — 절대 push 금지
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials.json
+
+# DB / data dumps
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+backups/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 운영 코드 (이 레포는 MCP 서버 단독 listing 용 — 운영 코드는 별도)
+api_server/
+database/
+nginx/
+agent-skills/
+installed_skills/
+sample_skills/
+client/
+canvas_ui_manager.py
+draft_claim_reminder.py
+health_check.py
+forward_only_baseline.py
+cleanup_unverified.py
+debug_*.py
+*.tgz
+*.zip
+*.skill
