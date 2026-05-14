@@ -1,0 +1,26 @@
+[project]
+name = "aiskillstore-mcp"
+version = "1.0.1"
+description = "AI Skill Store MCP server (stdio transport) for Claude/Cursor/OpenClaw agents"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "garasegae" }]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.2.0",
+    "requests>=2.31.0",
+]
+
+[project.urls]
+Homepage = "https://aiskillstore.io"
+Repository = "https://github.com/garasegae/aiskillstore"
+
+[project.scripts]
+skill-store-mcp = "mcp_server.skill_store_mcp:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["mcp_server"]

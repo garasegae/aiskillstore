@@ -1188,6 +1188,11 @@ def get_agent_author_stats(agent_name: str) -> str:
 
 
 # ── 실행 ──────────────────────────────────────────────
-if __name__ == "__main__":
+def main():
+    """Entry point for `skill-store-mcp` console script (defined in pyproject.toml)."""
     print(f"AI Skill Store MCP Server 시작 (연결 대상: {SKILL_STORE_URL})")
     mcp.run()
+
+
+if __name__ == "__main__":
+    main()
